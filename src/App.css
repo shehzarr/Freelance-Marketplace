@@ -1,0 +1,332 @@
+.avatarInfo {
+  max-width: calc(100% - 80px);
+  overflow: hidden;
+  text-overflow: clip;
+  float: left;
+}
+
+.RecordLayout {
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+.Scopic_color {
+  color: #3e768b;
+  text-decoration: none;
+}
+
+.Link_btn {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  color: #3e768b;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.Freelancer_videoLink {
+  padding: 0;
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.SpanMemeber {
+  margin-left: 8px;
+}
+
+.FreelancerAvatar {
+  display: flex;
+  line-height: 1.4;
+  margin-bottom: 4px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.FreelanceAvatarMeta {
+  font-size: 0.875em;
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.FreelanceAvatarLocation {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.LocationSvg {
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.PipeDivider {
+  padding: 0 8px;
+  border: 0;
+  margin: 0;
+}
+
+.Earnings {
+  display: inline-flex;
+  align-items: center;
+}
+
+.DollarImg {
+  width: 14px;
+  height: 15px;
+}
+
+.EarningAmount {
+  margin-left: 4px;
+  color: #333;
+}
+
+.EarningYear {
+  display: inline;
+  color: #666;
+  font-weight: 400;
+}
+
+.FreelanceAvatarFeedback {
+  font-size: 0.875em;
+  color: #4c83c3;
+  font-weight: 600;
+  border: 1px solid #4c83c3;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.LikeImg {
+  width: 10.94px;
+  height: 17px;
+  color: #4c83c3;
+}
+.ModuleAvatar {
+  flex: 1 0 67%;
+  margin-right: auto;
+  border-radius: 2px;
+  vertical-align: middle;
+  display: flex;
+}
+
+.LogoJob {
+  float: left;
+  margin-right: 12px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+.JobImg {
+  width: 50px;
+  height: 50px;
+}
+
+.RecordHeader {
+  flex-flow: row nowrap;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.RecordHeaderAction {
+  display: block;
+  flex: 0 1 auto;
+  text-align: right;
+}
+
+.ModuleBtn {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #666;
+  border-radius: 3px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin: 0 6px 0 0;
+  text-align: center;
+  text-shadow: 0 1px rgb(0 0 0 / 10%);
+}
+
+.AddImg {
+  width: 13px;
+  height: 18px;
+}
+
+.ModuleBtnQuote {
+  font-weight: 600;
+  color: #fff;
+  background-color: #3e76b8;
+  border-color: #3a6fac;
+  margin: 0;
+  position: relative;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  text-align: center;
+  text-shadow: 0 1px rgb(0 0 0 / 10%);
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.RecordContent {
+  flex: 1 0 auto;
+  border-top: 1px solid #eee;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.FindGuruRecord {
+  margin-bottom: 1em;
+}
+
+.ServiceListing {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+}
+
+.ServiceListingCover {
+  flex: 0 0 25%;
+  margin-right: 1em;
+  position: relative;
+  display: block;
+  border: 1px solid grey;
+  margin-right: 16px;
+}
+
+.ServiceListingImage {
+  max-width: 100%;
+  width: 300;
+  height: 200;
+  vertical-align: middle;
+  border: 0;
+}
+
+.RecordHeaderIdentity {
+  flex: 1 0 67%;
+  margin-right: auto;
+}
+
+.ServiceListingDetial {
+  flex: auto;
+}
+
+.ServiceListingTitle {
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: text-top;
+  margin-right: 12px;
+  font-size: 1em;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.ServiceListingRates {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: text-top;
+  font-size: 0.875em;
+  color: #666;
+  font-weight: 600;
+}
+
+.ServiceListingDesc {
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #333;
+  word-break: break-word;
+  white-space: break-spaces;
+}
+
+.SkilledList {
+  font-size: 16px;
+}
+
+.SkilledSet {
+  font-size: 0.8125em;
+  display: inline-block;
+  color: #666;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  background: #fff;
+  padding: 4px 12px;
+  margin: 0 6px 6px 0;
+}
+
+.TabControls {
+  display: block;
+  font-size: 16px;
+  background: #f8f8f8;
+  border-radius: 3px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.NavTabControl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #e0e0df;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+.TabsControlButton {
+  background: transparent;
+  border: 0;
+  border-right: 1px solid #e0e0df;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  padding: 12px 0 12px 0;
+  text-align: center;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+.TabControlButtonIcon {
+  font-size: 1.5em;
+  color: #888;
+  display: block;
+  width: 27px;
+  height: 20px;
+  opacity: 0.6;
+}
+
+.TabControlButtonTitle {
+  text-transform: uppercase;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
