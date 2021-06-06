@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App]
 
 
-#About Project
+# About Project
 Designed in React. This website was turned to be a freelance marketplace. Main Motivation behind it was to allows companies to find freelance workers for commissioned work.
 
 In the project directory, you can run:
