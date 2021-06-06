@@ -20,3 +20,5 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
 Since this is not deployed anywhere I'll just give you an overall idea. Click to view the Picture in High Resolution.
+
+<a href="https://ibb.co/M2PrWYG"><img src="https://i.ibb.co/M2PrWYG/guru.png" alt="guru" border="0"></a>
